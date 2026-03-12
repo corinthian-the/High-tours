@@ -1,7 +1,7 @@
-document.querySelector("form").addEventListener("submit", function(e){
+const toggle = document.getElementById("darkToggle");
 
-e.preventDefault();
+toggle.addEventListener("click", () => {
 
-alert("Your booking request has been sent! Hightours will contact you soon.");
+document.body.classList.toggle("dark");
 
 });
