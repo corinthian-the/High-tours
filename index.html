@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hightours</title>
+
+<title>Hightours Travel</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -12,52 +13,139 @@
 <body>
 
 <header>
+
 <h1>Hightours</h1>
-<p>Your Gateway to Amazing Adventures</p>
-</header>
 
 <nav>
 <a href="#home">Home</a>
 <a href="#about">About</a>
-<a href="#services">Services</a>
+<a href="#tours">Tours</a>
+<a href="#gallery">Gallery</a>
+<a href="#testimonials">Reviews</a>
+<a href="#booking">Booking</a>
 <a href="#contact">Contact</a>
 </nav>
 
+</header>
+
 <section class="hero" id="home">
-<h2>Explore the World with Hightours</h2>
+
+<div class="hero-text">
+
+<h2>Explore Amazing Destinations</h2>
+
+<p>Travel with Hightours and experience unforgettable adventures.</p>
+
+<a href="#booking" class="btn">Book a Tour</a>
+
+</div>
+
 </section>
 
 <section id="about">
+
 <h2>About Hightours</h2>
+
 <p>
-Hightours is a growing SME dedicated to creating unforgettable travel
-experiences. We organize tours, adventures and travel packages for
-individuals and groups.
+Hightours is a small and growing travel SME dedicated to helping people
+discover beautiful destinations and unforgettable adventures.
+We organize guided tours, group trips, and custom travel experiences.
 </p>
+
 </section>
 
-<section id="services">
+<section id="tours">
 
-<h2>Our Services</h2>
+<h2>Popular Tours</h2>
 
-<div class="services">
+<div class="tour-container">
 
-<div class="service-box">
-<h3>Adventure Tours</h3>
-<p>Explore mountains, wildlife and nature adventures.</p>
+<div class="tour-card">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+<h3>Safari Adventure</h3>
+<p>Explore wildlife and nature parks.</p>
 </div>
 
-<div class="service-box">
-<h3>City Tours</h3>
-<p>Discover culture, food and historical attractions.</p>
+<div class="tour-card">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<h3>Mountain Tours</h3>
+<p>Climb and explore breathtaking mountains.</p>
 </div>
 
-<div class="service-box">
-<h3>Custom Travel</h3>
-<p>Personalized travel packages designed for you.</p>
+<div class="tour-card">
+<img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98">
+<h3>Beach Holidays</h3>
+<p>Relax on beautiful tropical beaches.</p>
 </div>
 
 </div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Travel Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98">
+
+</div>
+
+</section>
+
+<section id="testimonials">
+
+<h2>Customer Reviews</h2>
+
+<div class="reviews">
+
+<div class="review">
+<p>"Amazing experience! Highly recommended."</p>
+<h4>- Sarah</h4>
+</div>
+
+<div class="review">
+<p>"The tour was well organized and fun."</p>
+<h4>- James</h4>
+</div>
+
+<div class="review">
+<p>"Best travel company I've used!"</p>
+<h4>- Mary</h4>
+</div>
+
+</div>
+
+</section>
+
+<section id="booking">
+
+<h2>Book a Tour</h2>
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<select>
+
+<option>Select Tour</option>
+<option>Safari Adventure</option>
+<option>Mountain Tour</option>
+<option>Beach Holiday</option>
+
+</select>
+
+<input type="date">
+
+<button type="submit">Submit Booking</button>
+
+</form>
 
 </section>
 
@@ -65,22 +153,14 @@ individuals and groups.
 
 <h2>Contact Us</h2>
 
-<form action="felixthuo22@email.com" method="post" enctype="text/plain">
-
-<input type="text" placeholder="Your Name" required>
-
-<input type="email" placeholder="Your Email" required>
-
-<textarea placeholder="Your Message"></textarea>
-
-<button type="submit">Send Message</button>
-
-</form>
+<p>Email: your@email.com</p>
 
 </section>
 
 <footer>
-<p>© 2026 Hightours | All Rights Reserved</p>
+
+<p>© 2026 Hightours Travel</p>
+
 </footer>
 
 <script src="script.js"></script>
